@@ -1,8 +1,13 @@
+div {
+  border: 1px solid black;
+}
+
 /* header section */
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
   display: flex;
   border-bottom: 1px solid black;
   position: fixed;
@@ -17,7 +22,6 @@ header {
   flex-grow: 1;
   align-items: center;
   padding-left: 30px;
-  border: 1px solid black;
 }
 
 .logo img {
@@ -54,5 +58,25 @@ body {
 /* content section */
 
 .content {
-  border: 1px solid black;
+  display: flex;
+  margin: 0px auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
