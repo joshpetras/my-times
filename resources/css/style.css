@@ -1,4 +1,5 @@
 /* header section */
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -38,7 +39,7 @@ header nav {
   align-content: flex-end;
 }
 
-nav span {
+header nav span {
   display: inline-block;
   padding: 20px 10px;
 }
@@ -50,6 +51,7 @@ nav a {
 body {
   margin: 0px;
 }
+
 
 /* content section */
 
@@ -153,6 +155,9 @@ body {
   padding: 11px 20px;
 }
 
+
+/* footer section */
+
 footer {
   display: flex;
   flex-direction: column;
@@ -166,10 +171,13 @@ footer {
   height: 325px;
 }
 
+footer .info {
+
+}
+
 footer .title {
   font-family: Georgia;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 16px;font-weight: bold;
   color: white;
   border-right: 2px solid white;
   padding: 0px 20px;
@@ -177,5 +185,19 @@ footer .title {
 
 footer nav {
   display: inline-block;
-  padding-left: 25px;
+  padding: 0px 20px;
+}
+
+footer nav span {
+  padding: 0px 10px;
+  margin: 10px 0px;
+}
+
+footer .copyright {
+  justify-content: center;
+  display: flex;
+}
+
+footer .copyright span {
+  margin-top: 20px;
 }
